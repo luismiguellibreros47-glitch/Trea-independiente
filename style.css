@@ -1,0 +1,123 @@
+body {
+    background-color: #d0dce8;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+.contenedor-principal {
+    background-color: white;
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    padding: 20px;
+}
+header h1 {
+    font-size: 18px;
+    color: #1a1a2e;
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+section {
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: white;
+}
+section:nth-child(1) {
+    width: 47%;
+}
+
+section:nth-child(2) {
+    width: 47%;
+}
+section:nth-child(3) {
+    width: 100%;
+}
+
+section:nth-child(4) {
+    width: 100%;
+}
+h2 {
+    background-color: #eef2f7;
+    padding: 8px 12px;
+    font-size: 14px;
+    color: #1a1a2e;
+    border-bottom: 1px solid #aaa;
+    margin: 0;
+}
+label {
+    display: block;
+    font-size: 13px;
+    color: #555;
+    margin: 10px 12px 3px 12px;
+}
+input, select, textarea {
+    display: block;
+    width: 90%;
+    margin: 0 12px 10px 12px;
+    padding: 7px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    font-size: 13px;
+    background-color: #f9f9f9;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+}
+th {
+    background-color: #eef2f7;
+    padding: 8px 10px;
+    text-align: left;
+    border-bottom: 1px solid #aaa;
+}
+td {
+    padding: 6px 10px;
+    border-bottom: 1px solid #ddd;
+}
+td input, td select {
+    width: 95%;
+    margin: 0;
+}
+td label {
+    display: none;
+}
+.acciones {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.btn-guardar {
+    background-color: #3a8cd4;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: 0.5s;
+}
+.btn-guardar:hover{
+     background-color: #d0dce8;
+}
+.btn-cancelar {
+    background-color: #cccccc;
+    color: #333;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn-cancelar:hover{
+background-color: crimson;
+}

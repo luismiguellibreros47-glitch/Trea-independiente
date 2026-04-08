@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Fisioterapia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="contenedor-principal">
+        <header>
+            <h1>FisioTareaLuis</h1>
+        </header>
+        <form>
+            <section>
+                <h2>Datos Personales</h2>
+                <label>Nomnre completo</label>
+                <input type="text" placeholder="Nombre del paciente">
+                <label>Cédula:</label>
+                <input type="number" placeholder="Numero de identificacion ">
+                <label>Edad</label>
+                <input type="number" placeholder="0000">
+                
+            </section>
+            <section>
+                <h2>Historial De Citas Previas</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>fECHA</th>
+                            <th>Fisioterapeuta</th>
+                            <th>Motivo</th>
+                        </tr>
+                    </thead>
+                </table>
+                <tbody>
+                    <tr>
+                        <td><input type="date" placeholder="00/00/00"></td>
+                        <td> 
+                        <label for="nombres">Fsioterapeuta:</label>
+                        <select id="nombres" name="lista_nombres">
+                        <option value="juan">Juan Pérez</option>
+                        <option value="maria">María García</option>
+                        <option value="pedro">Pedro Rodríguez</option>
+                        <option value="ana">Ana Martínez</option>
+                        </select>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="sintomas"> 
+                    </td>
+                    </tr>
+                </tbody>
+            </section>
+            <section>
+    <h2>Evaluación de la Consulta Actual</h2>
+    
+    <label>Motivo de la Consulta / Estado de Salud Actual:</label>
+    <textarea rows="3" placeholder="Ej: Paciente refiere dolor agudo..."></textarea>
+    
+    <label>Intensidad del Dolor (1-10):</label>
+    <select>
+        <option value="" disabled selected>Selecciona</option>
+        <option value="1">1 (Muy bajo)</option>
+        <option value="5">5 (Medio)</option>
+        <option value="7">7 (Alto)</option>
+        <option value="10">10 (Insoportable)</option>
+    </select>
+    
+    <label>Actividad Realizada (Ejercicios y Técnicas):</label>
+    <textarea rows="4" placeholder="Ej: Se realizó termoterapia..."></textarea>
+</section>
+
+<section>
+    <h2>Plan de Tratamiento y Recomendaciones</h2>
+    
+    <label>Fórmula Médica y Recomendaciones:</label>
+    <textarea rows="4" placeholder="Ej: 1. Tomar analgésico... 2. Reposo relativo..."></textarea>
+</section>
+
+<div class="acciones">
+    <button type="submit" class="btn-guardar">Guardar Registro de Cita
+ </button>
+    <button type="reset" class="btn-cancelar">Cancelar
+ </button>
+</div>
+        </form>
+    </main>
+</body>
+</html>
