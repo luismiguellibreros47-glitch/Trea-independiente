@@ -8,7 +8,7 @@ de la consulta actual y plan de tratamiento.
 ## Contenido del repositorio
 - `index.html` → Formulario principal con semántica HTML5
 - `style.css` → Estilos visuales del formulario
-- `wireframe.pdf` → Boceto del diseño del formulario
+- `wireframe.drawio.pdf` → Boceto del diseño del formulario
 
 ## Etiquetas semánticas utilizadas
 - `<main>` → Contenedor principal del contenido
